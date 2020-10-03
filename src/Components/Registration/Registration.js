@@ -14,7 +14,7 @@ const Registration = () => {
   const onSubmit = data => {
     console.log(data)
     //post data to database 
-    fetch('http://localhost:8080/addEvent', {
+    fetch('https://whispering-crag-86723.herokuapp.com/addEvent', {
       method: 'POST',
       body: JSON.stringify(data),
       headers: {

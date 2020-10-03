@@ -10,7 +10,7 @@ const TaskCard = ({id,eventName,imageUrl,date}) => {
   const handleEventDelete = (id) =>{
     console.log(id)
     
-    fetch(`http://localhost:8080/delete/${id}`,{
+    fetch(`https://whispering-crag-86723.herokuapp.com/delete/${id}`,{
       method: 'DELETE'
     })
     .then(res => res.json())

@@ -12,7 +12,7 @@ const [user,setUser]=useContext(UserContext)
   const [events,setevents]=useState([])
  
   useEffect(()=>{
-    fetch(`http://localhost:8080/events?email=${user.email}`)
+    fetch(`https://whispering-crag-86723.herokuapp.com/events?email=${user.email}`)
     .then(res => res.json())
     .then(data=> setevents(data))
   },[events])

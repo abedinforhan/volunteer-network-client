@@ -16,10 +16,7 @@ const Login = () => {
   const handleGoogleSignIn = () =>{
      googleSignIn()
       .then(res=> {
-        console.log(user)
-        
         const userInfo={...user,...res}
-        console.log(userInfo)
         setUser(userInfo)
         history.push('/registration')
       })

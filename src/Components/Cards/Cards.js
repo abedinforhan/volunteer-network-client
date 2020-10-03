@@ -8,7 +8,6 @@ import { volunteerCatagory } from '../volunteerCatagory';
 const Cards = () => {
 
  const [catagory,setCatagory]=useState(volunteerCatagory)  
- console.log(catagory)
   return (
     <Container>
       <Row className='mt-5'>
