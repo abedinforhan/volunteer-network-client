@@ -27,7 +27,9 @@ const Header = ({ buttonsHide}) => {
         :
         <div className='header__buttons'>
         <Button variant="primary">Register</Button>{' '}
-        <Button variant="secondary">Admin</Button>{' '}
+        <Link to='/admin'>
+         <Button variant="secondary">Admin</Button>{' '}
+        </Link>
       </div>
       }
     </div>

@@ -5,9 +5,11 @@ import {
   Route,
 } from "react-router-dom";
 import './App.css';
+import Admin from './Components/Admin/Admin';
 import EventTask from './Components/EventTask/EventTask';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
+import Nomatch from './Components/Nomatch/Nomatch';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Registration from './Components/Registration/Registration';
 
@@ -35,9 +37,15 @@ const [user,setUser]=useState({})
           <PrivateRoute path='/events'>
             <EventTask/>
           </PrivateRoute> 
+         <Route path='/admin'>
+           <Admin/>
+          </Route>
           <Route exact path='/'>
             <Home/>
           </Route> 
+          <Route path="*">
+            <Nomatch/>
+          </Route>
         </Switch>
       </Router>
       </UserContext.Provider>
