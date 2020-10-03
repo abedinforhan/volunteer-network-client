@@ -1,0 +1,26 @@
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.header__logo{
+  margin-left: 60px;
+}
+.header__logoImage {
+  height:50px;
+  object-fit: contain;
+}
+.header__nav > span {
+  margin: 0px 10px;
+  flex: 1;
+}
+
+.header__buttons{
+  display: flex;
+  align-items:center;
+}
+.header__buttons > button {
+  margin: 0px 5px ;
+}

@@ -1,0 +1,27 @@
+.login{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+.login > img {
+  width: 200px;
+  padding-bottom:60px ;
+}
+.login__container{
+  width: 400px;
+  border: 1px solid lightgray;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 100px 20px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__googleBtn{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width:90%
+}

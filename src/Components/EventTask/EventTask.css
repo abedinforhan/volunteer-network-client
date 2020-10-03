@@ -1,0 +1,11 @@
+.eventTaskCard{
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  align-items: center;
+}
+
+.eventTaskCard__info{
+  padding: 10px 20px;
+
+}

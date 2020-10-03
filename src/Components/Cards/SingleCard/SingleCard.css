@@ -1,0 +1,7 @@
+.singleCard{
+  height: 500px;
+  width: 30%;
+}
+.singleCard__image > img{
+  height: 250px;
+}

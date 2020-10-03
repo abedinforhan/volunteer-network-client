@@ -1,0 +1,42 @@
+.registration{
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.registration__logo{
+  width: 200px;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.registration__form{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+.registration__form > form > input {
+  width: 98%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.registration__form > form > input:focus{
+  outline-width: 0;
+}
+.registratiom__submitBtn{
+  background-color: blue;
+  color: white;
+  border-radius:2px;
+}
+
+.photo__input{
+  display: none;
+}
