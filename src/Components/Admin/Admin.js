@@ -4,7 +4,7 @@ import './Admin.css'
 const Admin = () => {
   return (
     <div>
-      <h3>Sorry! I dd not get time! bcoz i  had a minor surgery at dhaka on 5th October! Pray for me please so that i can get well soon.Assalamualikum Sir</h3>
+      <h3>Will be working on it soon.</h3>
     </div>
   );
 };
